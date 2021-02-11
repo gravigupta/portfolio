@@ -1,0 +1,96 @@
+body{
+font-size: 150%;
+
+background-image:url("background.png");
+background-size: cover;
+background-repeat :no-repeat;
+}
+
+#navigation ul{
+    list-style-type:none;
+    
+}
+#navigation ul li{
+    float:left;
+}
+#navigation ul li a{
+    text-align:center;
+    padding:2px;
+    display: block;
+    text-decoration: none;
+    background-color:blueviolet;
+    color:white;
+    font-size:150%;
+    margin:5px;
+    border:3px solid white;
+    border-radius:5px;
+}
+#intro{
+    float:left;
+    clear:both;
+    margin:4%;
+    margin-left:5%;
+    margin-right:40%;
+}
+#intro h1{
+    font-size: 250%;
+    color:white;
+}
+#intro p{
+font-size:180%;
+color:rgb(224, 128, 64);
+width:60%;
+}
+#skills{
+    float:right;
+    clear:both;
+    margin:4%;
+    margin-left:40%;
+    margin-right:5%;
+}
+#skills h2{
+    font-size:180%;
+    color:white;
+}
+#skills ul{
+    list-style-type:none;
+}
+#skills li{
+    font-size:150%;
+    color:palevioletred;
+}
+
+#contact{
+float:left;
+clear:both;
+margin:4%;
+margin-left:10%;
+}
+#contact h2{
+    color:white;
+    font-size:200%;
+}
+#contact p{
+    width:60%;
+    clear:both;
+}
+#contact ul{
+    list-style-type:none;
+}
+
+#contact ul li{
+    float:left;
+    margin:5px;
+}
+
+#contact ul li a{
+ display:block;
+ text-decoration:none;
+ margin:5px;
+}
+#contact img{
+    height:5%;
+}
+
+
+
